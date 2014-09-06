@@ -1,0 +1,9 @@
+smtp:
+    server: smtp.gmail.com:587
+    security: tls
+    username: some-gmail-account@gmail.com
+    password: password-for-that-gmail-account
+
+recipients:
+    default:
+        email: my-own-email@example.com
