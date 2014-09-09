@@ -22,8 +22,8 @@ Prerequisites:
 The following code should then suffice in a script which wishes to
 send a notification:
 
-    import notify.mail
-    notify.mail.send_message("Hello world!")
+    import notify
+    notify.services.email.send_message("Hello world!")
 
 Configuration file
 ==================
