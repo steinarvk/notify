@@ -59,12 +59,5 @@ def send_message(message, recipient="default"):
         server.sendmail(sender, target, message)
 
 if __name__ == '__main__':
-    import datetime
-    import random
-    message = """\
-The time is now: {}
-Here's a random number: {}
-Have a great day!
-""".format(datetime.datetime.now(), random.random())
-    print message
-    send_message(message)
+    import sample
+    sample.send_sample_message(send_message)

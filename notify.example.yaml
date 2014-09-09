@@ -4,6 +4,12 @@ smtp:
     username: some-gmail-account@gmail.com
     password: password-for-that-gmail-account
 
+twilio:
+    sid: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    token: deadbeef00deadbeef00deadbeef0000
+    number: "+19000000000"
+
 recipients:
     default:
         email: my-own-email@example.com
+        phone: "+460123456789"
